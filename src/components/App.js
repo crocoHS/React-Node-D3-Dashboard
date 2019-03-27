@@ -36,11 +36,6 @@ function isDate(a) {
 }
 function isMinMax(dimension) {
 
-    // let min = Dimes[this.dimension].bottom(1)[0][[...new Set(indices)][dimension]];
-    // let max = Dimes[this.dimension].top(1)[0][[...new Set(indices)][dimension]];
-    //
-    // if(typeof min == "number")
-    //     return [min,max]
     return [0, 1000]
 
 }
@@ -55,11 +50,6 @@ class CrossfilterContext {
             Dimes.push(that.crossfilter.dimension(function (g) {
                 return g[d[0]];
             }));
-            // DimesGroups.push(that.crossfilter.dimension(function (g) {
-            //
-            //     return g[d[0]];
-            // }).group());
-            ///CANT HOLD ANY MORE INFORMATION??? 32<Dimensions
             DimesCount.push(that.crossfilter.dimension(function (g) {
 
                 return g[d[0]];
