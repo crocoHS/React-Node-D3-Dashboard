@@ -399,7 +399,7 @@ class App extends Component {
                          style={{height: 150, position: "middle"}}/>
                     <br/>
                     <hr/>
-                    <div className="chart-title"> Data V's Grouped Data</div>
+                    <div className="chart-title">Grouped Data</div>
                     <div style={{width: 200, position: "relative", display: "inline-block", margin: "5 auto"}}>
                         <Select
                             style={{width: 200}}
